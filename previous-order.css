@@ -1,0 +1,49 @@
+.previous-order-content {
+  margin: 3% 0px 0px 10%;
+}
+
+.order-title {
+  font-size:34px;
+  padding-bottom: 3%;
+}
+
+.order-image {
+  width: 22%;
+  height: 40vh;
+  background: transparent;
+}
+
+.order-sub-title {
+  font-size: 27px;
+  padding: 3% 0px 2% 0px;
+}
+
+.order-decription {
+  font-size: 20px;
+  opacity: .6;
+  padding-bottom: 2%;
+}
+
+.order-btn {
+  padding: 8px 25px;
+  background: transparent;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .5s ease-in;
+}
+
+.order-btn:hover {
+  background: lightgray;
+}
+
+.order-btn2 {
+  margin-left: 10px;
+  background: #000;
+  color: #fff;
+}
+
+.order-btn2:hover {
+  background: #000;
+  opacity: .7;
+}

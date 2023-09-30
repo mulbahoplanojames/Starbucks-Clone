@@ -1,0 +1,40 @@
+:root {
+  --primary-Clr1: #1111;
+  --primary-Clr2: #1e3932;
+  --primary-Clr3: #008248;
+  --primary-Clr4: #d4e9e2;
+  --primary-Clr5: #f1f8f6;
+  --primary-Clr5: #f3f1e7;
+  --font-weight: 600;
+  --fonst-size: 22px;
+}
+
+
+.sign-in-container {
+  height: 75vh;
+  margin-bottom: 4%;
+}
+
+.form-title {
+  padding-bottom: 0px;
+}
+
+.info {
+  padding: 5% 0px 3% 0px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.join-reward-title {
+  padding: 0px 0px 1.5% 0px;
+  color: #000;
+}
+
+.join-reward-decription {
+  padding-bottom: 4%;
+}
+
+.submit-btn {
+  margin-left: 50%;
+}

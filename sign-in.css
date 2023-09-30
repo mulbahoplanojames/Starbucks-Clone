@@ -1,0 +1,117 @@
+:root {
+  --primary-Clr1: #1111;
+  --primary-Clr2: #1e3932;
+  --primary-Clr3: #008248;
+  --primary-Clr4: #d4e9e2;
+  --primary-Clr5: #f1f8f6;
+  --primary-Clr5: #f3f1e7;
+  --font-weight: 600;
+  --fonst-size: 22px;
+}
+
+#sign-in {
+  margin: auto;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.sign-in-title {
+  font-size:35px;
+  padding-bottom: 3%;
+}
+
+.sign-in-container {
+  width: 30%;
+  height: 60vh;
+  box-shadow: 4px 4px 4px 0px lightgray;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  margin: 0px auto;
+  text-align: start;
+}
+
+form {
+  margin: 6% 0px 2% 5%;
+}
+
+.form-title {
+  padding-bottom: 5%;
+  font-size: 18px;
+}
+
+.input {
+  width: 95%;
+  height: 6vh;
+  font-size: 17px;
+  outline: none;
+  padding-left: 15px;
+  border-radius: 10px;
+  margin-bottom: 6%;
+}
+
+.check-box {
+  margin-bottom: 6%;
+}
+
+.check-box span {
+  font-size: 18px;
+  padding-left: 2%;
+}
+
+.check-box a {
+  color: var(--primary-Clr3);
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.form-link {
+  font-size: 18px;
+  padding-bottom: 2%;
+  display: inline-block;
+  color: var(--primary-Clr3);
+  font-weight: 700;
+}
+
+.submit-btn {
+  padding: 10px 30px;
+  background: var(--primary-Clr3);
+  color: #fff;
+  font-size: 17px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  margin: 7% 0px 0px 60%;
+  transition: .5s ease-in;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  opacity: 0.6;
+}
+
+.join-reward-title {
+  padding: 4% 0px 1% 0px;
+  text-transform: uppercase;
+  color: var(--primary-Clr3) ;
+  font-size: 23px;
+}
+
+.join-reward-decription {
+  font-size: 16px;
+  padding-bottom: 1.5%;
+}
+
+.join-reward-btn {
+  padding: 10px 30px;
+  border: 2px solid var(--primary-Clr3);
+  border-radius: 50px;
+  background: transparent;
+  color: var(--primary-Clr3);
+  font-size: 17px;
+  margin-bottom: 10%;
+  transition: .5 ease-in;
+  cursor: pointer;
+}
+
+.join-reward-btn:hover {
+  opacity: 0.6;
+}

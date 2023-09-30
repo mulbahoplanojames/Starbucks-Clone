@@ -1,0 +1,105 @@
+:root {
+  --primary-Clr1: #1111;
+  --primary-Clr2: #1e3932;
+  --primary-Clr3: #008248;
+  --primary-Clr4: #d4e9e2;
+  --primary-Clr5: #f1f8f6;
+  --primary-Clr5: #f3f1e7;
+  --font-weight: 600;
+  --fonst-size: 22px;
+}
+
+
+
+#header {
+  text-align: center;
+}
+
+.feature-content {
+  margin-top: 3%;
+}
+
+.feature-content-title {
+  font-size: 42px;
+  color: var(--primary-Clr2);
+  padding-bottom: 4%;
+}
+
+.feature-content-container {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 4%;
+}
+
+.feature-content-card {
+  width: 50%;
+  height: 130vh;
+  background: #dba33b;
+}
+
+.content-card-two {
+  background: #c0865cb4;
+}
+
+.content-card-three {
+  background: rgb(153, 54, 87);
+}
+
+.content-card-head {
+  height: 90vh;
+  background-color: transparent;
+}
+
+.content-card-body {
+  margin-top: 4%;
+}
+
+.card-body-title {
+  font-size: 25px;
+  color: var(--primary-Clr2);
+  padding-bottom: 3%;
+}
+
+.body-title-three {
+  color: #fff;
+}
+
+.card-body-decription {
+  font-size: 18px;
+  color: var(--primary-Clr2);
+  line-height: 1.6;
+  padding-bottom: 3%;
+}
+
+.body-decription-three {
+  color: #fff;
+}
+
+.ft-btn {
+  border: 2px solid var(--primary-Clr2);
+  color: var(--primary-Clr2);
+  font-size: 19px;
+}
+
+.ft-btn3 {
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 19px;
+}
+
+.ft-btn:hover {
+  background: transparent;
+  opacity: .6;
+}
+
+/****************************** 
+    the below codes are for the content section 
+ ******************************/
+ #content {
+  margin-bottom: 4%;
+ }
+
+ .ft-content-btn:hover {
+  background: transparent;
+  opacity: .6;
+ }

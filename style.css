@@ -1,0 +1,398 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-Clr1: #1111;
+  --primary-Clr2: #1e3932;
+  --primary-Clr3: #008248;
+  --primary-Clr4: #d4e9e2;
+  --primary-Clr5: #f1f8f6;
+  --primary-Clr5: #f3f1e7;
+  --font-weight: 600;
+  --fonst-size: 17px;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #111;
+  line-height: 1.3;
+}
+
+#header {
+  height: fit-content;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .8% 3%;
+  border-bottom: 2px solid transparent;
+  box-shadow: 4px 4px 4px 0px gray;
+  z-index: 4;
+}
+
+.nav-logo {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.nav-logo .logo {
+  width: 40px;
+  height: 40px;
+  background: var(--primary-Clr2);
+  border-radius: 50%;
+  overflow: hidden;
+  animation: fadein 2s infinite ;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes fadein {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+
+.nav-logo .nav-links ul li{
+  display: inline-block;
+  padding: 0px 25px;
+}
+
+.nav-logo .nav-links ul li a {
+  text-decoration: none;
+  font-size: var(--fonst-size);
+  color: #000;
+  text-transform: uppercase;
+  font-weight: var(--font-weight);
+}
+
+.nav-logo .nav-links ul li:after{
+  content: '';
+  width: 0px;
+  height: 3px;
+  background: var(--primary-Clr2);
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+.nav-logo .nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.nav-btns a{
+  padding: 0px 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-btns .loc {
+  font-size: var(--fonst-size);
+}
+
+.nav-btns .loc:hover {
+  color: var(--primary-Clr3);
+}
+
+.bi-geo-alt-fill {
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.nav-btns .nav-btn {
+  border: 2px solid #000;
+  border-radius: 50px;
+  padding: 6px 20px;  
+  font-size: 17 px;
+  margin: 0px 10px 0px 0px;
+  transition: .5s ease-in;
+}
+
+.nav-btns .nav-btn:hover {
+  box-shadow: 4px 4px 4px 0px #000;
+}
+
+.nav-btns .nav-btn2 {
+  background: #000;
+  color: #fff;
+  font-weight: var(--font-weight);
+}
+
+.content-container {
+  display: flex;
+  /* gap: 10px; */
+  margin-top: 3%;
+}
+
+.content-context {
+  width: 50%;
+  height: 80vh;
+  background: var(--primary-Clr2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.content-two {
+  background: #d87093;
+}
+
+.content-three {
+  background: #ffbd44;
+}
+
+.content-context .content-title,
+.content-context .content-decription 
+{
+  color: #fff;
+  padding-bottom: 5%;
+}
+.content-context .content-title {
+  font-size: 43px;
+}
+
+.content-context .content-decription {
+  font-size: 23px;
+}
+
+.content-btn, 
+.about-btn {
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: var(--fonst-size);
+  cursor: pointer;
+  transition: .5s ease-in;
+}
+
+.content-btn {
+  animation: zoombtn 1s infinite;
+}
+
+.content-btn:hover {
+  background: var(--primary-Clr3);
+}
+
+.btn-two:hover {
+  background: #b84a6e;
+}
+
+.btn-three:hover {
+  background: #dba33b;
+}
+
+@keyframes zoombtn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+/*******************************
+The below code is for the about us section  
+*******************************/
+
+#about {
+  margin: 4% 0px;
+  height: fit-content;
+}
+.about-container {
+  display: flex;
+}
+
+.about-content {
+  width: 50%;
+  height: 60vh;
+  background: var(--primary-Clr2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3%;
+}
+.about-content-two {
+  background: #cccf14b7;
+}
+
+.about-content-title,
+.about-content-description {
+  color: #fff;
+}
+
+.about-content-title {
+  font-size: 35px;
+  padding-bottom: 5%;
+}
+
+.about-content-description {
+  font-size: 19px;
+  padding-bottom: 4%;
+}
+
+/* contain the same styling of the content button  */
+.about-btn:hover {
+  background: rgb(13, 13, 170);
+}
+.about-btn-two:hover {
+  background: #cccf14d2;
+}
+
+
+/*******************************
+The below code is for the more info section  
+*******************************/
+#more-info {
+  margin: auto;
+  text-align: center;
+  padding: 6% 0px 2% 0px;
+}
+
+.more-info-description {
+  color: #000;
+  font-size: 17px;
+  line-height: 1.4;
+  padding-bottom: 6%;
+}
+
+.more-info-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+}
+
+.more-info-link:hover {
+  color: blue;
+}
+
+/*******************************
+The below code is for the footer section  
+*******************************/
+footer {
+  margin-bottom: 1%;
+   padding: 30px;
+}
+
+.footer-container {
+  display: flex;
+ 
+}
+
+.footer-content {
+  width: 18%;
+  height: 70vh;
+  border: 2px solid transparent;
+  margin-bottom: 2%;
+  margin-left: 8px;
+}
+
+.main-content {
+  margin-left: 1%;
+}
+
+.footer-content-title {
+  padding-bottom: 8%;
+  font-size: 20px;
+  color: #000;
+}
+
+.footer-content-decription a {
+  font-size: 17px;
+  color: #000;
+  opacity: .6;
+  padding-bottom: 10%;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer-content-decription a:hover {
+  opacity: 1;
+}
+
+/******************************* 
+ ========= Sub footer  =========
+*******************************/
+#sub-footer {
+  margin-top: 4%;
+}
+
+.social-links {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 3%;
+}
+
+.socials-links-wripper {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-links-wripper a {
+  color: black;
+}
+
+.bi-spotify,
+.bi-facebook,
+.bi-pinterest,
+.bi-instagram,
+.bi-youtube,
+.bi-twitter {
+  font-size:25px;
+}
+
+.social-terms {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 2%;
+}
+
+.social-terms a{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.social-terms a:hover {
+  text-decoration: underline;
+}
+
+.hr {
+  width: 5px;
+  background: #000;
+}
+
+.copy-right {
+  font-size: 17px;
+  opacity: .6;
+}

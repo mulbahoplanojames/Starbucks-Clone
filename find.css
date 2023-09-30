@@ -1,0 +1,75 @@
+:root {
+  --primary-Clr1: #1111;
+  --primary-Clr2: #1e3932;
+  --primary-Clr3: #008248;
+  --primary-Clr4: #d4e9e2;
+  --primary-Clr5: #f1f8f6;
+  --primary-Clr5: #f3f1e7;
+  --font-weight: 600;
+  --fonst-size: 22px;
+}
+
+.find-store-container {
+  display: flex;
+  margin-bottom: 3%;
+}
+
+.find-store-content {
+  width: 60%;
+  height: 90vh;
+  background-color: transparent;
+}
+
+.find-store-content-one {
+  background: transparent;  
+  width: 40%;
+  padding: 20px 0px 0px 40px;
+}
+
+.search {
+  margin-bottom: 8%;
+}
+
+#location {
+  width: 70%;
+  height: 6vh;
+  font-size: 19px;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 2px solid transparent;
+  background: transparent;
+}
+
+.bi-geo-alt {
+  padding-left: -60%;
+}
+
+.location-btn {
+  margin-left: 20px;
+  padding: 8px 10px;
+  background: transparent;
+  border: 2px solid var(--primary-Clr3);
+  color: var(--primary-Clr3);
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.find-store-title {
+  font-size: 25px;
+  padding-bottom: 6%;
+}
+
+.find-store-decription {
+  font-size: 18px;
+  opacity: 0.7;
+  padding-bottom: 16%;
+}
+
+.find-store-links a {
+  font-size: 19px;
+  text-decoration: none;
+  color: var(--primary-Clr3);
+  padding-bottom: 4%;
+  display: inline-block;
+}
